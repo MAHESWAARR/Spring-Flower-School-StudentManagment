@@ -18,7 +18,7 @@ function login(){
     let storedPass = localStorage.getItem("password");
 
     if(user === storedUser && pass === storedPass){
-        window.location = "index.html";
+        window.location = "home.html";
     }else{
         alert("Invalid login");
     }
@@ -65,3 +65,4 @@ function showActivities(){
  });
 
 }
+
