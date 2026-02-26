@@ -7,7 +7,7 @@ function register(){
     localStorage.setItem("password", pass);
 
     alert("Registered successfully");
-    window.location = "login.html";
+    window.location = "index.html";
 }
 
 function login(){
@@ -63,4 +63,5 @@ function showActivities(){
          result.innerHTML += `<li>${a.activity}</li>`;
      }
  });
+
 }
